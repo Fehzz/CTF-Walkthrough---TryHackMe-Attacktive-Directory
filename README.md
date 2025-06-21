@@ -10,6 +10,9 @@ Starting off with an Nmap scan on the target (I have already exported the IP add
 nmap -p- -sV -sC $target --open
 ```
 
+![image](https://github.com/user-attachments/assets/4974ebac-1ccb-418d-b568-796cd481f98e)
+
+
 We can see the Active Directory domain: `spookysec.local`.
 
 This is a typical AD setup with services like Kerberos, SMB, RPC, and LDAP running. Let's enumerate these services one by one.
